@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spead и rest. Введение в браузерные событии</title>
+    <style>
+        #my-block{
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container p-3">
+        <div id="my-block" ondblclick="showMessage()"></div>
+    </div>
+
+
+    <script>
+        // let arr1 = [1, 2, 3];
+        // let arr2 = [...arr1];
+
+        // arr1.push(4, 5, 6);
+        // arr2.push(7, 8, 9);
+
+        // console.log('arr1', arr1);
+        // console.log('arr2', arr2);
+
+        // let arr1 = [1, 2, 3];
+        // let arr2 = [4, 5, 6];
+
+        // let result = [...arr1, ...arr2];
+
+        // console.log(result);
+
+        // let user = {
+        //     name: 'Tilek',
+        //     age: 25,
+        //     country: 'Bishkek'
+        // }
+
+        // let user2 = {
+        //     hisHobbies: 'programmer'
+        // }
+
+        // let result = {...user, ...user2};
+
+        // console.log(result);
+
+        // let num = [7, 8, 466];
+        // let max = Math.max(...num);
+        // console.log(max);
+
+        // ******** Введение в браузерные события *********
+
+            function showMessage(){
+                alert('Hello');
+            }
+    </script>
+</body>
+</html>

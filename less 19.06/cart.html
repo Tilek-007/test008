@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product card</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">Ваши покупки</h1>
+        <div class="table-responsive">
+            <table class="table table-hover table-striped">
+                <thead>
+                    <tr>
+                        <th>Наименование товара</th>
+                        <th>Количество/КГ</th>
+                        <th>Сумма</th>
+                        <th>Уменшить</th>
+                        <th>Увеличить</th>
+                        <th>Обнулить</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Коробка цитрус</td>
+                        <td>2</td>
+                        <td>2400</td>
+                        <td>
+                            <button type="button" class="btn btn-danger btn-lg">-</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-success btn-lg">+</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-success btn-lg">x</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div id="root" class="row"> </div>
+
+    <script id="" type="text/x-handlebars-template">
+        {{#each this}}
+		
+		{{/each}}
+	 </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"
+        integrity="sha512-RNLkV3d+aLtfcpEyFG8jRbnWHxUqVZozacROI4J2F1sTaDqo1dPQYs01OMi1t1w9Y2FdbSCDSQ2ZVdAC8bzgAg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="cart.js"></script>
+</body>
+
+</html>

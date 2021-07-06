@@ -1,0 +1,28 @@
+.l-spacing{
+	letter-spacing: 5px;
+}
+.l-height{
+line-height: 2;	
+}
+.w-spacing{
+	word-spacing: 10px; 
+}
+.w-space{
+	white-space: nowrap;
+}
+.p-wrap{
+	white-space: pre-wrap;
+}
+.inter{
+	font-family: Inter, sans-serif;
+	font-weight: 700px;
+}
+.langar{
+	font-family: Langar;
+}
+.f_size{
+	font-size: 11px;
+}
+.f_weight{
+	font-weight: 900px;
+}

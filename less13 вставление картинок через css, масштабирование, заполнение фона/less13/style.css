@@ -1,0 +1,29 @@
+body{
+	/*background: yellow;*/
+	/*background-color: yellow;*/
+	padding: 50px 60px;
+}
+.allBlocks{
+	height: 700px;
+	border: 1px solid black;
+	box-shadow: -3px 0px 20px 2px black;
+	margin: 20px;
+}
+.myBlock1{
+	background-color: rgb(255 0 0);
+}
+.myBlock2{
+	/*background: url(https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/271157_2200-732x549.jpg)*/
+	/*background-image: url(https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/271157_2200-732x549.jpg);*/
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
+	background: linear-gradient(to bottom,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	
+}
+.myBlock3{
+	background-image:  url(https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/271157_2200-732x549.jpg);
+	/*background-repeat: no-repeat;*/
+	/*background-repeat: repeat-x;*/
+	/*background-repeat: repeat-y;*/
+	background-repeat: round;
+	/*background-repeat: space;*/
+}

@@ -1,0 +1,47 @@
+.text-name{
+	font-family: Source Sans Pro, sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #080808;
+	display: block;
+	margin: 0 0 20px;
+	text-transform: uppercase;
+}
+.container{
+	max-width: 919px;
+	margin: 0px 292px;	
+}
+.text-main{
+	margin: 70px 0px;
+}
+.main-pic{
+	max-width: 900px;
+}
+.f_style{
+	font-style: italic;
+}
+.f_weight{
+	font-weight: bold;
+}
+.text-style{
+	font-weight: bold;
+	font-style: italic;
+}
+.f_size{
+	font-size: 12.16px;
+	font-weight: bold;
+}
+.www_f_style{
+	color: #ffd202;
+}
+.m_name{
+	font-size: 24.5px
+}
+.table{
+	height: 290px;
+}
+.em_style{
+	font-style: italic;
+	font-size: 17.5px;
+	font-weight: bold;
+}

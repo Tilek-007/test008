@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeWork</title>
+</head>
+<body>
+    
+
+
+
+    <script>
+
+
+            let score = (a, b) => {
+                switch(true){
+                    case a >= 90 && 10 >= b:
+                    return 100;
+                    break;
+                    case a >= 75 && b >= 5:
+                    return 90;
+                    break;
+                    case a >= 50 && b >= 2: 
+                    return 75;
+                    break;
+                    case a >=30 && b >=1:
+                    return 50;
+                    break;
+                    default: 
+                    return 0;
+                }
+            }
+
+            console.log(score(31,2));
+
+        
+    </script>
+</body>
+</html>

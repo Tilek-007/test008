@@ -1,0 +1,45 @@
+body{
+	background-image: url(https://viptextile.net/wp-content/uploads/2017/07/735-2.png.pagespeed.ce.bzlce6OtPx.png);
+}
+/*выбор цвета*/
+.color{
+	color: rgba(215 23 23 / 0.3);
+}
+/*Инструменты разработчика: ctrl + shift + i*/
+/*Прозрачность сайта от 1 до 0.1*/
+.text-align{
+	text-align: center; 	
+}
+.text-indent{
+	text-indent: 100px;
+}
+/*Отвечает за подчеркивание и надчеркивание текста*/
+.text-decoration{
+	text-decoration: underline;
+}
+.text-shadow{
+	text-shadow: -2px 0px 5px red;
+}
+/*Все слова пишутся заглавные и прописные и т.д.*/
+.text-transform{
+	text-transform: none;
+}
+.message{
+	border: 1px solid #323232;
+	background-color: #E4E4E4;
+	color: #747474;
+	margin: 10px;
+}
+#test{
+	background-color: rgb(255 0 0);
+	color: #ffffff;
+	padding: 15px;
+	margin: 15px;
+	border: 7px solid blue;
+	border-radius: 50px;
+	opacity: 0.5;
+	box-shadow: 3px 3px 7px #000;
+}
+#test:hover {
+opacity: 1;
+}

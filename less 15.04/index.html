@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        let arr = [
+            { name: 'Tilek', age: 25, country: 'kg', },
+            { name: 'Adlet', age: 31, country: 'moscow', },
+            { name: 'Daniel', age: 20, country: 'usa', }
+        ];
+
+        let result = arr.filter(function(person, index, array) {
+            return person.age > 30 || person.country === 'kg';
+        })
+        console.log(result);
+
+
+        
+    </script>
+</body>
+</html>

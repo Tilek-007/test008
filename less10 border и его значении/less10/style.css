@@ -1,0 +1,26 @@
+/* ширина рамки, стиль рамки, цвет рамки.*/
+.border{
+	border: 2px solid green;
+}
+/*Внутренний отступ*/
+.padding{
+	/*padding: 10px;*/
+	/*сверху справа снизу слева*/
+	/*padding: 10px 20px 10px 20px;*/
+	/*сверху-снизу справа-слева*/
+	/*padding: 50px 20px;*/
+	/*сверху слева-справа снизу*/
+	padding: 5px 50px 30px;
+}
+/*внешний отступ*/
+/*отступы в margin прописываються также как в padding*/
+.margin{
+	/*margin: 20px;*/
+	margin: 50 20px;
+}
+.width{
+	min-width: 600px;
+}
+.height{
+	min-height: 600px;
+}

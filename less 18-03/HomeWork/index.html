@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HomeWork</title>
+</head>
+<body>
+	
+
+
+
+	<script>
+		let userSalaries = {
+			Tilek:20000,
+			Adlet:30000,
+			Akjol:25000
+		}
+
+		let name = prompt('Введите имя');
+
+		if(name === userSalaries){
+			let result = `Сотрудник ${name} получает ${userSalaries[name]} сомов.`;
+			alert(result);
+		} else {
+			let newName = prompt('Добавить сотрудника?', name);
+			let newSalary = +prompt(`Заработная плата ${newName} ?`);
+			userSalaries[newName] = newSalary;
+			console.log(userSalaries);
+		}
+	</script>
+</body>
+</html>

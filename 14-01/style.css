@@ -1,0 +1,19 @@
+.container{
+	width: 80%;
+	height: 550px;
+	margin: 0 auto;
+	border: 3px solid black;
+	padding: 10px;
+	display: flex;
+	align-items: stretch;
+}
+
+.container div{
+	width: 150px;
+	height: 150px;
+	border: 2px solid rgb(0 255 0);
+	text-align: center;
+	font-size: 22px;
+	font-weight: 700;
+	margin-right: 10px;
+}

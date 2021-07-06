@@ -1,0 +1,30 @@
+.block1{
+	font-size: 18px;
+}
+.block2{
+	font-size: 200%;
+}
+.block3{
+	height: 100px;
+	width: 50%;
+	border: 3px solid black;
+	background: green;
+	}
+	.block3 div{
+		height: 50px;
+		width: 50%;
+		background: red;
+	}
+	.block4{
+		overflow: auto;
+		height: 100px;
+		width: 500px;
+		margin: 50px 0px 50px;
+		border: 3px solid black;
+	}
+	.txt1{
+		display: block;
+	}
+	a{
+		background: red;
+	}

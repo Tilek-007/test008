@@ -1,0 +1,43 @@
+/**{
+	color: yellow;
+}*/
+
+h1,h2{
+	color: red;
+}
+
+[placeholder]{
+	background: black;
+}
+
+[type="number"]{
+	background: red;
+}
+
+a[href^="https"]{
+	color: red;
+}
+
+img[src$=".png"]{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}
+
+img[alt*="город"]{
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+
+.block1 > p{
+	color: blue;
+}
+
+.block1 ~ h2{
+	color: black;
+}
+
+div:not(.block2){
+	border: 1px solid black;
+}

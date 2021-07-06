@@ -1,0 +1,21 @@
+#block{
+	border: 1px solid black;
+	width: 200px;
+	height: 80px;
+	margin: 40px;
+	color: white;
+	border-radius: 5%;
+	background-color: #326488;
+	transition-duration: 1s, 1s;
+	/*----------------*/
+	transition-property: border-radius,
+	 background-color;
+	/*---------------*/
+	transition-delay: 0s, 0.5s;
+	letter-spacing: 10px;
+}
+
+#block:hover{
+	border-radius: 50px;
+	background-color: #188b69;
+}

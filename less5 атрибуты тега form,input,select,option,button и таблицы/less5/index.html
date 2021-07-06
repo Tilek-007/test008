@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Less5: Формы и элементы формы</title>
+</head>
+<body>
+	<!-- method="POST" method="GET" -->
+	<form action="api.html" method="GET" enctype="multipart/form-data">
+	 <div>
+		<input type="text" name="username">
+	 </div> <br>
+	 <div>
+		<input type="number" name="userphone">
+	 </div> <br>
+	 <div>
+		<input type="password" name="userPassword">
+	 </div> <br>
+      <div>
+      	<!-- chekced обозначить -->
+        <p><input type="radio" name="gender" checked="">Мужчина</p>
+        <p><input type="radio" name="gender">Женщина</p> 	
+      </div>
+      <p><input type="checkbox" name=""> Дом</p>
+      <p><input type="checkbox" name="" checked=""> Машина</p>
+      <div>
+      	<input type="file" name="">
+      	<textarea name="" id="" cols="30" rows="10"></textarea> <img src="" alt="">	
+      </div>
+      <div>
+      	<select name="" id="">
+      		<option value="">Россия</option>
+      		<option value="">Америка</option>
+      		<option value="" selected="">Канада</option>
+      	</select>
+      </div>
+      <div>
+      	<button type="submit"> Отправить</button>
+      	<button type="reset" >Сбросить</button>
+      </div>
+	</form>
+	<button type="button">Открыть окошко</button>
+</body>
+</html>

@@ -1,0 +1,46 @@
+.container{
+	width: 80%;
+	margin: 0 auto;
+	border: 2px solid black;
+	position: relative;
+}
+
+.container div{
+	height: 200px;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 5px;
+}
+
+#elem1{
+	background-color: pink;
+	position: relative;
+	top: 50px;
+	left: 100px;
+	z-index: 0;
+}
+
+#elem2{
+	background-color: yellow;
+	position: absolute;
+	width: 100%;
+	top: 0;
+}
+
+#elem3{
+	background-color: gray;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+}
+#elem4{
+	background-color: red;
+	position: sticky;
+	top: 0;
+}
+.sticky{
+	background: yellow;
+	padding: 20px;
+	position:-webkit-sticky;
+	bottom:0;
+}

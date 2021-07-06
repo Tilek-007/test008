@@ -1,0 +1,48 @@
+body{
+	background: #333;
+}
+
+button{
+	position: relative;
+	left: 670px;
+	top: 100px;
+	width: 200px;
+	height: 50px;
+	background: #1e6289de;
+	color: #fff;
+	border-radius: 50px;
+	cursor: pointer;
+	font-size: 18px;
+
+	animation-name: button;
+	animation-duration: 600ms;
+	animation-iteration-count: infinite;
+}
+
+@keyframes button{
+
+0%{
+	box-shadow: 0px 0px 0px 0px #fff;
+}
+
+25%{
+	box-shadow: 1px 2px 0px 5px rgba(157,26,26,0.57);
+}
+
+50%{
+	box-shadow: 1px 2px 0px 10px rgba(157,26,26,0.57);
+}
+
+75%{
+	box-shadow: 1px 2px 0px 14px rgba(157,26,26,0.30);
+}
+
+100%{
+	box-shadow: 1px 2px 0px 21px rgba(157,26,26,0.10);
+}
+}
+
+button:hover{
+	animation: none;
+	box-shadow: 0px 0px 0px 0px #333;
+}

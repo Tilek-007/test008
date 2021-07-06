@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeWork</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+
+<body class="bg-dark">
+
+    <div class="container p-3">
+
+        <div>
+            <h2>1. Accept</h2>
+            <p>Задает типы файлов, которые сервер принимает</p>
+            <p>
+                <input class="btn btn-danger" type="file" accept="" id="accept">
+                <label for="accept"></label>
+            </p>
+        </div>
+
+        <div>
+            <h2>2. Autocomplete</h2>
+            <p>
+                Этот атрибут помогает заполнять поля форм текстом,
+                который был введён в них ранее.
+            </p>
+            <p>
+                <label for="autocomplete">Name :</label>
+                <input class="btn btn-light" id="autocomplete" type="text" autocomplete="on">
+            </p>
+        </div>
+
+        <div>
+            <h2>3. Autofocus</h2>
+            <p>
+                Атрибут указывает,
+                что данный элемент должен автоматически получать фокус при загрузке страницы.</p>
+            <p>
+                <input class="btn btn-light" type="text" id="autofocus" autofocus>
+                <label for="autofocus">Autofocus</label>
+            </p>
+        </div>
+
+        <div>
+            <h2>4. Formaction</h2>
+            <p>
+                Определяет адрес обработчика формы — это программа,
+                которая получает данные формы и производит с ними желаемые действия.
+            </p>
+            <p>
+                <input class="btn btn-light" type="text" id="formaction" formaction="#">
+                <label for="formaction">Formaction</label>
+            </p>
+        </div>
+
+        <div>
+            <h2>5. Formenctype</h2>
+            <p>
+                Устанавливает способ кодирования данных формы при их отправке на сервер.
+            </p>
+            <p>
+                <label for="formaction">Formenctype :</label>
+                <input class="btn btn-warning" id="formaction" type="file" formaction="#">
+            </p>
+        </div>
+
+        <div>
+            <h2>6. Formmethod</h2>
+            <p>
+                Атрибут сообщает браузеру,
+                каким методом следует передавать данные формы на сервер.
+            </p>
+            <p>
+                <input class="btn btn-light" type="text" id="formmethod" formmethod="GET">
+                <label for="formmethod">Formmethod</label>
+            </p>
+        </div>
+
+        <div>
+            <h2>7. Formnovalidate</h2>
+            <p>
+                Отменяет встроенную проверку данных введённых пользователем
+                в форме на корректность перед отправкой формы.
+            </p>
+            <p>
+                <input class="btn btn-light" type="email" id="formnovalidate">
+                <label for="formnovalidate">Formnovalidate</label>
+            </p>
+        </div>
+
+        <div>
+            <h2>8. Formtarget</h2>
+            <p>
+                Определяет окно или фрейм в которое будет загружаться результат,
+                возвращаемый обработчиком формы, в виде HTML-документа.
+            </p>
+            <p>
+                <input class="btn btn-light" type="submit" id="formtarget" formtarget="_blank">
+                <label for="formtarget">Formtarget</label>
+            </p>
+        </div>
+
+        <div>
+            <h2>9. Max</h2>
+            <p>
+                Устанавливает верхнее значение для ввода числа или даты в поле формы.
+            </p>
+            <p>
+                <input class="btn btn-light" type="number" max="2" id="max">
+                <label for="max">Max</label>
+            </p>
+        </div>
+
+        <div>
+            <h2>10. Maxlength</h2>
+            <p>
+                Устанавливает максимальное число символов,
+                которое может быть введено пользователем в текстовом поле.
+            </p>
+            <p>
+                <input class="btn btn-light" type="text" id="maxlength" maxlength="4">
+                <label for="maxlength">Maxlength</label>
+            </p>
+        </div>
+
+        <div>
+            <h2>11. Min</h2>
+            <p>
+                Устанавливает нижнее значение для ввода числа или даты в поле формы.
+            </p>
+            <p>
+                <input class="btn btn-light" type="number" min="2" id="min">
+                <label for="min">Min</label>
+            </p>
+        </div>
+
+        <div>
+            <h2>12. Pattern</h2>
+            <p>
+                Указывает регулярное выражение,
+                согласно которому требуется вводить и проверять данные в поле формы
+            </p>
+            <p>
+                <input class="btn btn-light" type="text" id="pattern" pattern="[^0-9]">
+                <label for="pattern">Pattern</label>
+            </p>
+        </div>
+
+        <div>
+            <h2>13. Readonly</h2>
+            <p>
+                Текстовое поле не может изменяться пользователем,
+                в том числе вводиться новый текст или модифицироваться существующий.
+            </p>
+            <p>
+                <input class="btn btn-secondary" type="text" readonly id="readonly" value="Does not change">
+                <label for="readonly">Readonly</label>
+            </p>
+        </div>
+
+        <div>
+            <h2>14. selectionDirection</h2>
+            <p>
+                I have no idea what is it
+            </p>
+            <input class="btn btn-light" type="text" id="selection_direction" selectionDirection>
+            <label for="selection_direction">selectionDirection</label>
+        </div>
+
+        <div>
+            <h2>15. Step</h2>
+            <p>
+                Устанавливает шаг изменения числа для ползунков и полей ввода чисел.
+            </p>
+            <p>
+                <input class="btn btn-light" type="number" step="2" id="step">
+                <label for="step">Step</label>
+            </p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+body{
+	background-color: #cdcccc;
+}
+
+.container{
+	border: 1px solid black;
+	width: 26%;
+	height: 410px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.border{
+	border: 7px solid #1fd785;
+	height: 296px;
+	width: 76%;
+	margin: 10%;
+	padding-top: 25px;
+}
+
+.first_name{
+	font-size: 14px;
+	padding: 0px 35px 0px;
+	font-family: 'Open Sans', sans-serif;
+	opacity: 0.5;
+}
+
+.second_name{
+	font-size: 27px;
+	padding: 0px 7% 0%;
+	color: black;
+	font-family: sans-serif;
+	margin-left: 10px;
+	font-weight: 499;
+}
+
+.main_text{
+	font-size: 11px;
+	padding: 0px 12% 5%;
+	line-height: 1.5;
+	letter-spacing: -0.1px;
+}
+
+.ip-text{
+	margin-left: 31px;
+	border: 0px solid black;
+	height: 34px;
+	width: 40%;
+	background-color: #1fd785;
+	border-radius: 100px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 9px;
+	line-height: 0.2;
+	letter-spacing: 1px;
+}

@@ -1,0 +1,26 @@
+/*Обращаемся ко всем параграфам*/
+p{
+	font-size: 36px;
+  }
+  /*Обращение к id: пишеться в начале #*/
+  #my_text{
+  	font-size: 18px;
+  }
+  /*Обращение к class: пишеться .*/
+  .text_red{
+  	color: red;
+  }
+  .text_blue{
+  	color: blue;
+  	font-size: 20px;
+  }
+  /*отвечает за стиль шрифта текста*/
+  .f_family{
+  	font-family: cursive;
+  }
+  .f_style{
+  	font-style: oblique;
+  }
+  .f_weight{
+  	font-weight: 900!;
+  }

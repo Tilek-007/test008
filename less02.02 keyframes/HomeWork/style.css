@@ -1,0 +1,30 @@
+.loading{
+	border: 1px solid #4cbad3;
+	width: 600px;
+	height: 30px;
+	margin: 0 auto;
+}
+
+.block1{
+	width: 0%;
+	height: 30px;
+	background-color: #4cbad3;
+
+	animation-name: blue-border;
+	animation-duration: 12s;
+	animation-fill-mode: backwards;
+	animation-iteration-count: infinite;
+	animation-delay: -3450ms;
+}
+
+@keyframes blue-border{
+
+from{
+	width: 0%;
+}
+
+to{
+	width: 100%;
+}
+
+}

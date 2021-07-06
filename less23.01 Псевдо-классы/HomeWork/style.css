@@ -1,0 +1,8 @@
+.www:visited{
+	color: blue;
+}
+
+.www:hover{
+	text-decoration: none;
+	color: red;
+}

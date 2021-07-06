@@ -1,0 +1,26 @@
+.block1{
+	height: 80px;
+	width: 200px;
+	border: 1px solid black;
+	transition-duration: 3s, 4s;
+	transition-property: background, width;
+	transition-delay: 0s, 2s;
+}
+
+.block1:hover{
+	background: pink;
+	width: 800px;
+}
+
+.block2{
+	height: 80px;
+	width: 200px;
+	border: 1px solid black;
+	transition-duration: 2s;
+	transition-timing-function: ease;
+}
+
+.block2:hover{
+	width: 800px;
+	background-color: red;
+}

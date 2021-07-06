@@ -1,0 +1,45 @@
+body{
+	background-color: #898686;
+}
+
+.container{
+	border: 5px solid black;
+	width: 50%;
+	margin: 0 auto;
+	position: relative;
+	height: 450px;
+	background-color: white;
+}
+
+.container div{
+	height: 130px;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 5px;
+	border: 0px solid black;
+	width: 20%;
+}
+
+.elem1{
+	background-color: #fff200;
+	position: relative;
+	left: 40px;
+	top: 35px;
+	z-index: 1;
+}
+
+.elem2{
+	background-color: #b5e61d;
+	position: absolute;
+	left: 95px;
+	top: 100px;
+	z-index: 2;
+}
+
+.elem3{
+	background-color: #7f7f7f;
+	position: sticky;
+	left: 540px;
+	top: 190px;
+	z-index: 1;
+}

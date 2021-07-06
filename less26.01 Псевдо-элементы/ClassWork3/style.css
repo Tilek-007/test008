@@ -1,0 +1,29 @@
+.container{
+	border: 1px solid transparent;
+	width: 75%;
+	height: 100vh;
+	margin: 0 auto;
+}
+
+.nameoftext{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 48px;
+	line-height: 58px;
+	font-weight: normal;
+}
+
+p{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 24px;
+	line-height: 32px;
+}
+
+span::before{
+	content:'Начало:';
+	color:red;
+}
+
+span::after{
+	content:':Конец!';
+	color: green;
+}

@@ -1,0 +1,41 @@
+.container{
+	width:900px;
+	margin: 0 auto;
+}
+
+img{
+	width: 100%;
+}
+
+@media print{
+
+	.container img{
+		display: none;
+	}
+
+	.container p{
+		font-size: 30px;
+	}
+}
+
+/*стили, которые будут применены к элементам страницы с рабочей областью не больше 1200 px*/
+@media screen and (min-width: 1200px)
+{
+	body{
+		background: green;
+	}
+}
+/*стили, которые будут применены к элементам страницы с рабочей областью не больше 768 px*/
+@media screen and (min-width: 768px)
+{
+	body{
+		background: red;
+	}
+}
+/*стили, которые будут применены к элементам страницы с рабочей областью не больше 576 px*/
+@media screen and (min-width: 576px)
+{
+	body{
+		background: yellow;
+	}
+}

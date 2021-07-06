@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HomeWork</title>
+</head>
+<body>
+	
+
+
+
+	<script>
+
+		let ask = prompt('Кто такой В.В. Путин?');
+		if(ask == 'Президент'){
+			alert('Верно')
+		} else{
+			alert('Не знаете')
+		}
+
+		
+		let name = prompt('Кто пришел?');
+		if(name === 'Админ'){
+			let num = prompt('Пароль');
+
+			if(num === 'Черный властелин'){
+				alert('Добро пожаловать'); 
+			} else if(num === null){
+				alert('Вход отменен');
+			} else if(num === ''){
+				alert('Введите пароль');
+			} else if(num !== 'Черный властелин'){
+				alert('Пароль не верен');
+			}
+		} else if(name === null){
+			alert('Вход отменен')
+		} else if(name !== 'Админ'){
+			alert('Я вас не знаю')
+		}
+	</script>
+</body>
+</html>

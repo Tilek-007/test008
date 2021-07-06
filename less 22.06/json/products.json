@@ -1,0 +1,70 @@
+{
+  "products": [
+    {
+      "name": "Iphone XR",
+      "someText": "6 Gb ОЗУ 128 Встроенная ",
+      "price": "50 000",
+      "status": "Active",
+      "photo": "iphonex.jpg",
+      "id": 1
+    },
+    {
+      "name": "Iphone X",
+      "someText": "8/512 led ",
+      "price": "40 000",
+      "status": "Active",
+      "photo": "iphonex.jpg",
+      "id": 2
+    },
+    {
+      "name": "Huawei",
+      "someText": "4 Gb 500TB",
+      "price": "120 000",
+      "status": "",
+      "photo": "samsung.jpg",
+      "id": 3,
+      "productGroup": ""
+    },
+    {
+      "name": "Sony PS5",
+      "someText": "500GB 1 month ",
+      "price": "100 000",
+      "status": "Not active",
+      "photo": "samsung.jpg",
+      "id": 4,
+      "productGroup": ""
+    },
+    {
+      "name": "Huawei",
+      "someText": "seFefSEF",
+      "price": "50 000",
+      "status": "Not Active",
+      "photo": "samsung.jpg",
+      "id": 6
+    },
+    {
+      "title": "Iphone",
+      "desk": "Iphone",
+      "status": "Active",
+      "id": 7
+    },
+    {
+      "title": "Iphone",
+      "desk": "Iphone",
+      "status": "Active",
+      "id": 8
+    }
+  ],
+  "productsGroup": [
+    {
+      "name": "Huawei",
+      "description": "Huawei Technologies Co. Ltd. — китайская компания, одна из крупнейших мировых компаний в сфере телекоммуникаций. В 1987 году основана бывшим инженером Народно-освободительной армии Китая Жэнь Чжэнфэем",
+      "id": 1
+    },
+    {
+      "name": "awdaWD",
+      "description": "",
+      "id": 2
+    }
+  ]
+}

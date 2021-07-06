@@ -1,0 +1,113 @@
+p{
+	color: red;
+}
+
+div p{
+	color: blue;
+}
+
+div h2{
+	color: red;
+}
+
+p, h2{
+	color: green;
+}
+
+div h2, div p{
+	color: yellow;
+}
+
+#block1 *{
+	color: red;
+}
+
+#block1 p{
+	color: blue;
+}
+
+#test p,#test h2{
+	color: green;
+}
+
+.block *{
+	color: pink;
+}
+
+.block p{
+	color: red;
+}
+
+.block, .hello{
+	color: gray;
+}
+
+.block p, .hello p{
+	color: yellow;
+}
+
+div#hello p.test{
+	color: blue;
+}
+
+#hello p.test{
+	color: red;
+}
+
+.test h2{
+	color: green;
+}
+
+ul li{
+	color: blue;
+}
+
+p a,a[class^="test"]{
+	color: red;
+	text-decoration: none;
+}
+
+table~img{
+	width: 100px;
+	height: 100px;
+}
+
+ul ~ p{
+	color: red;
+}
+
+h1~p{
+	color: gray;
+}
+
+*{
+	font-family: sans-serif;
+}
+
+[title*="1"]{
+	color: blue;
+}
+
+p[title="2"]{
+	color: green;
+}
+
+[type="text"]{
+	background-color: red;
+}
+
+a[href^="http://"]{
+	color: red;
+}
+
+a[href$="html"]{
+	color: green;
+}
+
+p[title="test"]{
+	color: yellow;
+}
+
+p.top{
+	color: pink;
+}

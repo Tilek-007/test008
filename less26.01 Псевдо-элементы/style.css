@@ -1,0 +1,27 @@
+*/
+
+p::after{
+	content: 'Год создания: 2021';
+	font-size: 36px;
+	font-weight: 900;
+}
+
+p::selection{
+	color: yellow;
+	background-color: black;
+}
+
+p::first-line{
+	color: blue;
+	background-color: gray;
+	font-size: 19px;
+}
+.second::first-letter{
+	color: red;
+	font-size: 36px;
+}
+
+input::placeholder{
+	color: red;
+	text-align: center;
+}

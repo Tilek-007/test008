@@ -1,0 +1,27 @@
+body
+{
+	overflow: hidden;
+}
+*{
+	margin: 0;
+}
+.container
+{
+	width: 30%;
+	height: 70px;
+	background-color: black;
+}
+.name
+{	
+	color: red;
+	/*text-indent: 1600px;*/
+	padding-left: 1600px;
+	transition-duration:  1s;
+	transition-property: padding-left;
+	white-space: nowrap;
+}
+.name:hover
+{
+	/*text-indent: 200px;*/
+	padding-left: 200px;
+}

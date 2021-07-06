@@ -1,0 +1,57 @@
+.container{
+	width: 70%;
+	margin: 0 auto;
+	border: 3px solid black;
+	height: 550px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.container div{
+	/*height: 100px;
+	width: 100px;*/
+	padding: 10px;
+	border: 2px solid green;
+	margin: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+
+/*.elem1{
+	flex-grow: 1;
+}
+
+.elem2{
+	flex-grow: 1;
+}
+
+.elem3{
+	flex-grow: 2;*/
+}
+/*.elem1{
+	flex-basis: 250px;
+}*/
+
+
+
+/*.elem1{
+	align-self: auto;
+}
+
+
+.elem2{
+	align-self: stretch;
+}*/
+
+/*.elem1{
+	order: 3;
+}
+
+.elem2{
+	order: 1
+}
+
+.elem3{
+	order: 2;
+}*/
