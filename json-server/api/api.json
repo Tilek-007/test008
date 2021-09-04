@@ -1,0 +1,28 @@
+{
+    "posts": [
+        {
+            "id":1,
+            "title":"Tesla",
+            "image":"https://s0.rbk.ru/v6_top_pics/ampresize/media/img/7/12/755843512215127.jpg",
+            "founder":"Ilon Mask"
+        },
+        {
+            "id":1,
+            "title":"Tesla",
+            "image":"https://s0.rbk.ru/v6_top_pics/ampresize/media/img/7/12/755843512215127.jpg",
+            "founder":"Ilon Mask"
+        },
+        {
+            "id":1,
+            "title":"Tesla",
+            "image":"https://s0.rbk.ru/v6_top_pics/ampresize/media/img/7/12/755843512215127.jpg",
+            "founder":"Ilon Mask"
+        },
+        {
+            "id":1,
+            "title":"Tesla",
+            "image":"https://s0.rbk.ru/v6_top_pics/ampresize/media/img/7/12/755843512215127.jpg",
+            "founder":"Ilon Mask"
+        }
+    ]
+}
